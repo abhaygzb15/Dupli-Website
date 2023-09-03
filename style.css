@@ -38,3 +38,11 @@ video{
 image{
     padding: 10px;
 }
+section p{
+    color:rgb(114, 106, 183);
+    border: 2px solid rgb(0,0,0);
+    padding: 20px;
+    background-color: rgb(249, 255, 72);
+    border-width: 3px;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

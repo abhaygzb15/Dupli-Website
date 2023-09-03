@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header h1{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+header{
+    padding: 40px;
+    background-color:rgb(17,124,143);
+}

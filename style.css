@@ -46,3 +46,14 @@ section p{
     border-width: 3px;   
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+footer{
+    background-color: black;
+    overflow: hidden;
+}
+footer a{
+    text-decoration: none;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}

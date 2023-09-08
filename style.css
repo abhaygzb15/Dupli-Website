@@ -57,17 +57,20 @@ nav a:hover{
     background-color: aqua;
     font-size: 20px;
     font-weight: bold;
-
+    border-radius: 10px;
+    border: 6px double rgb(232, 114, 4);
 }
 #a6{
     margin-left: auto;
 }
 #a5{
     margin-left:885px;
+    
 }
 #a5:hover,#a6:hover{
     color: aqua;
     background-color: blueviolet;
+    border: 6px double rgb(232, 213, 4);
 }
 main{
     background-color: white;
@@ -100,4 +103,62 @@ footer a{
     padding: 20px;
     text-align: center;
     color: white;
+}
+section h2{
+    background-color: rgb(0, 255, 68);
+    width: fit-content;
+    position: relative;
+    left: 700px;
+    color: white;
+    font-weight: bolder;
+    border-bottom: 4px solid black;
+    border-left: 4px  solid black;
+    border-top: 4px  solid black;
+    border-right: 4px  solid black;
+}
+#sectionh2ourfounder{
+    position: relative;
+    left: 675px;
+}
+
+section img{
+    border-radius: 50%;
+}
+section h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    padding: 5px;
+}
+div a{
+    text-decoration: none;
+    background-color: lightgrey;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+    border: 3px solid rgb(218, 30, 30);
+    border-radius: 20px;
+}
+div a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.yt-handle{
+    color:  rgb(224, 17, 179);
+    margin: 5px;
+    
+}
+.twitter-handle{
+    color: rgb(37, 37, 207);
+    margin: 5px;
+}
+.link-handle{
+    color:white;
+    margin: 8px;
+}
+footer a{
+    color: red;
+    text-decoration: underline;
 }
